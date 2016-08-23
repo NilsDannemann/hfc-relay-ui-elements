@@ -1,0 +1,42 @@
+//=====================================*/
+// IMPORTS
+//=====================================*/
+@import "../hfc-relay-ui-elements.scss";
+
+//=====================================*/
+// DEMO STYLES
+//=====================================*/
+body {
+  max-width: 1200px; margin: auto;
+  h3 {border-top: $border; padding-top: $whitespace; margin-top: ($whitespace*4);}
+  div {padding: $whitespace; box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.085) inset; background: $color-grey; overflow: hidden;}
+}
+
+//=====================================*/
+// DEMO
+//=====================================*/
+.arrow {
+	@include arrow($direction: up, $align: left, $color: $color-brand, $size: 10px);
+}
+
+.button {
+	div {
+		@include button();
+	}
+}
+
+.icon {
+	@include icon('fa-caret-right');
+}
+
+.position {
+	@include position(relative, $top:-10px, $right:0, $bottom:0, $left:0);
+}
+
+.transition {
+	@include transition();
+	&:hover {
+		background: $color-brand;
+	}
+}
+
