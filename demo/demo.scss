@@ -19,14 +19,20 @@ body {
 	@include arrow($direction: up, $align: left, $color: $color-brand, $size: 10px);
 }
 
-.button {
-	div {
-		@include button();
-	}
+.example-buttons-sizes {
+	.button1 {@include button($size: xs);}
+	.button2 {@include button($size: s);}
+	.button3 {@include button($size: m);}
+	.button4 {@include button($size: l);}
+	.button5 {@include button($size: xl);}
+	.button6 {@include button($size: xxl);}
+}
+.example-button-colors {
+	.button-color-1 {@include button($color: $color-brand);}
 }
 
 .icon {
-	@include icon('fa-caret-right');
+	@include icon('fa-caret-right', $size: m, $color: $color-brand, $margin: 0 10px 0 0);
 }
 
 .position {

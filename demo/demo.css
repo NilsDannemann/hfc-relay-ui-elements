@@ -617,7 +617,7 @@ hr.dashed {
 
 /* =======================================*/
 /*
-/* UI KIT - ICON
+/* UI ELEMENTS - ICONSETS
 /*
 /* =======================================*/
 /* =======================================*/
@@ -10362,7 +10362,9 @@ hr.dashed {
 }
 
 /* =======================================*/
-/* MIXIN
+/*
+/* UI ELEMENTS - ICON
+/*
 /* =======================================*/
 /* =======================================*/
 /*
@@ -10371,7 +10373,7 @@ hr.dashed {
 /* =======================================*/
 /* =======================================*/
 /*
-/* UI KIT - BUTTON
+/* UI ELEMENTS - BUTTON
 /*
 /* =======================================*/
 /* =======================================*/
@@ -10411,28 +10413,118 @@ body div {
   left: 20px;
 }
 
-.button div {
+.example-buttons-sizes .button1 {
   transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
   display: inline-block;
-  text-align: center;
-  font-size: 14px;
-  padding: 10px 20px;
+  font-size: 10px;
+  color: #595959;
+  padding: 5px 10px;
+  border: 1px solid #e2e2e2;
   border-radius: 4px;
+  background: #fff;
+  text-align: center;
   cursor: pointer;
-  outline: none;
+  outline: 0;
+  vertical-align: baseline;
+}
+.example-buttons-sizes .button2 {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-block;
+  font-size: 12px;
+  color: #595959;
+  padding: 7px 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  vertical-align: baseline;
+}
+.example-buttons-sizes .button3 {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-block;
+  font-size: 14px;
+  color: #595959;
+  padding: 10px 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  vertical-align: baseline;
+}
+.example-buttons-sizes .button4 {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-block;
+  font-size: 16px;
+  color: #595959;
+  padding: 13px 23px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  vertical-align: baseline;
+}
+.example-buttons-sizes .button5 {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-block;
+  font-size: 20px;
+  color: #595959;
+  padding: 15px 25px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  vertical-align: baseline;
+}
+.example-buttons-sizes .button6 {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-block;
+  font-size: 28px;
+  color: #595959;
+  padding: 17px 27px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+.example-button-colors .button-color-1 {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-block;
+  font-size: 14px;
+  color: #595959;
+  padding: 10px 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: 0;
+  vertical-align: baseline;
   color: #fff;
   background: #2196F3;
-  border: none;
+  border: 0;
 }
-.button div:hover, .button div.current, .button div.is-active, .button div.active {
-  background: #0a6ebd;
+.example-button-colors .button-color-1:hover, .example-button-colors .button-color-1.current, .example-button-colors .button-color-1.active {
+  background: #0c7cd5;
 }
 
 .icon::before {
   content: "";
   font-family: "FontAwesome";
-  color: #2196F3;
   font-size: 14px;
+  color: #2196F3;
+  margin: 0 10px 0 0;
 }
 
 .position {
