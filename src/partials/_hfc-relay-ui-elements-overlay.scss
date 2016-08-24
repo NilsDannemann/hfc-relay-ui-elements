@@ -12,7 +12,7 @@
   $icon-width:         $global-overlay-icon-width,
   $icon-height:        $global-overlay-icon-height,
   $icon-color:         $global-overlay-icon-color,
-  $icon-font-size:     $global-overlay-icon-font-size,
+  $icon-size:     $global-overlay-icon-size,
   $icon-border:        $global-overlay-icon-border,
   $icon-border-radius: $global-overlay-icon-border-radius
   ) {
@@ -60,7 +60,7 @@
     @if ($icon-border-radius == xxl) {$icon-border-radius: $border-radius-xxl}
     
     // Icon Output
-    @include icon($icon: $icon, $color: $icon-color, $font-size: $icon-font-size, $position: after);
+    @include icon($icon: $icon, $color: $icon-color, $size: $icon-size, $position: after);
 
     &:after {
       @include transition();
