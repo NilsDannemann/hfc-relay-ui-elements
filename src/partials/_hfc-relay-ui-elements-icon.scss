@@ -132,6 +132,7 @@ $iconmap-linearicons: ('li-binoculars': '\e6a9','li-media': '\e6fa','li-resize-h
     content: map-get($iconset, $icon);
     font-family: $icon-font-family;
     font-size: $size;
+    font-weight: normal;
     @if ($color != null) {color: $color;}
     @if ($margin != null) {margin: $margin;}
     @if ($padding != null) {padding: $padding;}

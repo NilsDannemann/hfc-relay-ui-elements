@@ -10523,6 +10523,7 @@ body div {
   content: "";
   font-family: "FontAwesome";
   font-size: 14px;
+  font-weight: normal;
   color: #2196F3;
   margin: 0 10px 0 0;
 }
