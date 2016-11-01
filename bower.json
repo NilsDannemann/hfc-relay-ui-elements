@@ -1,6 +1,6 @@
 {
   "name": "hfc-relay-ui-elements",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HFC Relay UI Elements (SCSS)",
   "main": "index.js",
   "authors": [
